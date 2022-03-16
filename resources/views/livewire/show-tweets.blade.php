@@ -1,7 +1,4 @@
 <div>
-    show tweets
-
-    <p>{{ $content }}</p>
 
     <form method="post" wire:submit.prevent='create'>
         <input type="text" id="content" name="content" wire:model='content'>
